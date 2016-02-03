@@ -1,0 +1,23 @@
+{
+  "name": "hackbot",
+  "version": "1.0.0",
+  "description": "Slackbot for the Cardiff Hackspace",
+  "main": "lib/hackbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CardiffHackspace/hackbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CardiffHackspace/hackbot/issues"
+  },
+  "homepage": "https://github.com/CardiffHackspace/hackbot#readme",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.1"
+  }
+}
