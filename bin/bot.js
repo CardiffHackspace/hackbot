@@ -1,7 +1,7 @@
 'use strict';
 
 var dotenv = require('dotenv');
-dotenv.load();
+dotenv.load({path: '/home/pi/hackbot/.env'});
 
 var HackBot = require('../lib/hackbot');
 
